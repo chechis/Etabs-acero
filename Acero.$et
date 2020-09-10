@@ -1,4 +1,4 @@
-$ File D:\jcalv\Escritorio\Acero\Acero.$et saved 10/09/2020 16:33:16
+$ File D:\jcalv\Escritorio\Acero\Acero.$et saved 10/09/2020 17:20:55
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "18.0.2"  
@@ -2527,12 +2527,12 @@ $ LOAD CASES
   LOADCASE "SD"  TYPE  "Linear Static"  INITCOND  "PRESET"  
   LOADCASE "SD"  LOADPAT  "SD"  SF  1 
   LOADCASE "Sismo XX"  TYPE  "Response Spectrum"  MODALCASE  "Modal"  
-  LOADCASE "Sismo XX"  ACCEL  "U1"  FUNC  "Sismo"  SF  9806.65 
-  LOADCASE "Sismo XX"  ACCEL  "U2"  FUNC  "Sismo"  SF  2941.995 
+  LOADCASE "Sismo XX"  ACCEL  "U1"  FUNC  "Sismo"  SF  13542.98 
+  LOADCASE "Sismo XX"  ACCEL  "U2"  FUNC  "Sismo"  SF  4062.9 
   LOADCASE "Sismo XX"  MODALDAMPTYPE  "Constant"  CONSTDAMP  0.05 
   LOADCASE "Sismo YY"  TYPE  "Response Spectrum"  MODALCASE  "Modal"  
-  LOADCASE "Sismo YY"  ACCEL  "U2"  FUNC  "Sismo"  SF  9806.65 
-  LOADCASE "Sismo YY"  ACCEL  "U1"  FUNC  "Sismo"  SF  2941.995 
+  LOADCASE "Sismo YY"  ACCEL  "U2"  FUNC  "Sismo"  SF  13601.82 
+  LOADCASE "Sismo YY"  ACCEL  "U1"  FUNC  "Sismo"  SF  4080.554 
   LOADCASE "Sismo YY"  MODALDAMPTYPE  "Constant"  CONSTDAMP  0.05 
 
 $ LOAD COMBINATIONS
@@ -2669,6 +2669,10 @@ ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/0
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:32:18
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:32:34
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:33:16
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:45:32
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:45:35
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:45:49
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:20:55
   ENDCOMMENTS  
 
   END
