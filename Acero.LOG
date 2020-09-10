@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2020/09/10  16:18:15
+ B E G I N   A N A L Y S I S                                2020/09/10  16:32:20
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -34,11 +34,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
 
 
- E L E M E N T   F O R M A T I O N                                      16:18:15
+ E L E M E N T   F O R M A T I O N                                      16:32:20
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        16:18:15
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        16:32:20
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -55,7 +55,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  16:18:16
+ L I N E A R   S T A T I C   C A S E S                                  16:32:21
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -70,7 +70,7 @@
  CASE: ~LLRF
 
 
- E I G E N   M O D A L   A N A L Y S I S                                16:18:16
+ E I G E N   M O D A L   A N A L Y S I S                                16:32:22
 
  CASE: MODAL
 
@@ -121,7 +121,7 @@
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    16:18:25
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    16:32:30
 
  CASE: SISMO XX
 
@@ -131,7 +131,7 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    16:18:25
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    16:32:30
 
  CASE: SISMO YY
 
@@ -141,4 +141,4 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- A N A L Y S I S   C O M P L E T E                          2020/09/10  16:18:25
+ A N A L Y S I S   C O M P L E T E                          2020/09/10  16:32:30
