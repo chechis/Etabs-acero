@@ -1,4 +1,4 @@
-$ File D:\jcalv\Escritorio\Acero\Acero.$et saved 10/09/2020 17:20:55
+$ File D:\jcalv\Escritorio\Acero\Acero.$et saved 10/09/2020 21:43:34
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "18.0.2"  
@@ -10,11 +10,11 @@ $ CONTROLS
   RLLF  METHOD "ASCE7-10"  USEDEFAULTMIN "YES"  
 
 $ STORIES - IN SEQUENCE FROM TOP
-  STORY "Nivel 6"  HEIGHT 3150 SIMILARTO "Nivel 1"  
-  STORY "Nivel 5"  HEIGHT 3150 SIMILARTO "Nivel 1"  
-  STORY "Nivel 4"  HEIGHT 3150 SIMILARTO "Nivel 1"  
-  STORY "Nivel 3"  HEIGHT 3150 SIMILARTO "Nivel 1"  
-  STORY "Nivel 2"  HEIGHT 3150 SIMILARTO "Nivel 1"  
+  STORY "Nivel 6"  HEIGHT 3450 SIMILARTO "Nivel 1"  
+  STORY "Nivel 5"  HEIGHT 3450 SIMILARTO "Nivel 1"  
+  STORY "Nivel 4"  HEIGHT 3450 SIMILARTO "Nivel 1"  
+  STORY "Nivel 3"  HEIGHT 3450 SIMILARTO "Nivel 1"  
+  STORY "Nivel 2"  HEIGHT 3450 SIMILARTO "Nivel 1"  
   STORY "Nivel 1"  HEIGHT 1050 MASTERSTORY "Yes"  
   STORY "Base"  HEIGHT 300 
   STORY "Story8"  HEIGHT 600 
@@ -51,6 +51,7 @@ $ GRIDS
   GRID "G1"  LABEL "2"  DIR "Y"  COORD 5540 VISIBLE "Yes"  BUBBLELOC "Start"  
   GRID "G1"  LABEL "5"  DIR "Y"  COORD 11040 VISIBLE "Yes"  BUBBLELOC "Start"  
   GRID "G1"  LABEL "6"  DIR "Y"  COORD 16630 VISIBLE "Yes"  BUBBLELOC "Start"  
+  REFERENCEPOINT  "G1"  X 0 Y 0 VISIBLE "Yes"  
 
 $ DIAPHRAGM NAMES
   DIAPHRAGM "D1"    TYPE RIGID
@@ -2527,15 +2528,19 @@ $ LOAD CASES
   LOADCASE "SD"  TYPE  "Linear Static"  INITCOND  "PRESET"  
   LOADCASE "SD"  LOADPAT  "SD"  SF  1 
   LOADCASE "Sismo XX"  TYPE  "Response Spectrum"  MODALCASE  "Modal"  
-  LOADCASE "Sismo XX"  ACCEL  "U1"  FUNC  "Sismo"  SF  13542.98 
-  LOADCASE "Sismo XX"  ACCEL  "U2"  FUNC  "Sismo"  SF  4062.9 
+  LOADCASE "Sismo XX"  ACCEL  "U1"  FUNC  "Sismo"  SF  13490.13 
+  LOADCASE "Sismo XX"  ACCEL  "U2"  FUNC  "Sismo"  SF  4047.04 
   LOADCASE "Sismo XX"  MODALDAMPTYPE  "Constant"  CONSTDAMP  0.05 
   LOADCASE "Sismo YY"  TYPE  "Response Spectrum"  MODALCASE  "Modal"  
-  LOADCASE "Sismo YY"  ACCEL  "U2"  FUNC  "Sismo"  SF  13601.82 
-  LOADCASE "Sismo YY"  ACCEL  "U1"  FUNC  "Sismo"  SF  4080.554 
+  LOADCASE "Sismo YY"  ACCEL  "U2"  FUNC  "Sismo"  SF  13539.18 
+  LOADCASE "Sismo YY"  ACCEL  "U1"  FUNC  "Sismo"  SF  4061.754 
   LOADCASE "Sismo YY"  MODALDAMPTYPE  "Constant"  CONSTDAMP  0.05 
 
 $ LOAD COMBINATIONS
+  COMBO "gravitacional"  TYPE "Linear Add"  
+  COMBO "gravitacional"  LOADCASE "Dead"  SF 1 
+  COMBO "gravitacional"  LOADCASE "Live"  SF 1 
+  COMBO "gravitacional"  LOADCASE "SD"  SF 1 
 
 $ STEEL DESIGN PREFERENCES
   STEELPREFERENCE  CODE "AISC 360-16"  THDESIGN "EVERYSTEP-ALL"  FRAMETYPE "SMF"  
@@ -2673,6 +2678,22 @@ ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/0
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:45:35
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 16:45:49
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:20:55
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:22:32
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:25:29
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:25:42
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:25:56
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:33:03
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:33:06
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:33:20
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 17:55:05
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 19:40:53
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 19:40:57
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 19:41:10
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 19:43:27
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 19:45:59
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 19:46:04
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 19:46:18
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 10/09/2020 21:43:34
   ENDCOMMENTS  
 
   END
