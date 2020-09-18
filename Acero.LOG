@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2020/09/10  19:46:06
+ B E G I N   A N A L Y S I S                                2020/09/17  18:10:41
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -17,9 +17,9 @@
     WITH MASS                              =        6146
  NUMBER OF FRAME/TENDON ELEMENTS           =        4863
  NUMBER OF SHELL ELEMENTS                  =        5665
- NUMBER OF LOAD PATTERNS                   =           4
+ NUMBER OF LOAD PATTERNS                   =           5
  NUMBER OF ACCELERATION LOADS              =           9
- NUMBER OF LOAD CASES                      =           7
+ NUMBER OF LOAD CASES                      =           8
 
  ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.846 GB
 
@@ -34,11 +34,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
 
 
- E L E M E N T   F O R M A T I O N                                      19:46:06
+ E L E M E N T   F O R M A T I O N                                      18:10:41
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        19:46:06
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        18:10:42
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -55,22 +55,23 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  19:46:07
+ L I N E A R   S T A T I C   C A S E S                                  18:10:45
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
- TOTAL NUMBER OF CASES TO SOLVE            =           4
- NUMBER OF CASES TO SOLVE PER BLOCK        =           4
+ TOTAL NUMBER OF CASES TO SOLVE            =           5
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           5
 
  LINEAR STATIC CASES TO BE SOLVED:
 
  CASE: DEAD
  CASE: LIVE
  CASE: SD
+ CASE: NOTIONAL
  CASE: ~LLRF
 
 
- E I G E N   M O D A L   A N A L Y S I S                                19:46:07
+ E I G E N   M O D A L   A N A L Y S I S                                18:10:47
 
  CASE: MODAL
 
@@ -91,37 +92,100 @@
 
  Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
  Number of eigenvalues below shift =      0
- Found mode      1 of     24:  EV= 2.6599088E+01, f=    0.820831, T=    1.218278
- Found mode      2 of     24:  EV= 2.7165404E+01, f=    0.829523, T=    1.205513
- Found mode      3 of     24:  EV= 5.5319384E+01, f=    1.183747, T=    0.844775
- Found mode      4 of     24:  EV= 1.5949029E+02, f=    2.009959, T=    0.497523
- Found mode      5 of     24:  EV= 1.7496271E+02, f=    2.105198, T=    0.475015
- Found mode      6 of     24:  EV= 2.9266315E+02, f=    2.722727, T=    0.367279
- Found mode      7 of     24:  EV= 4.0980616E+02, f=    3.221880, T=    0.310378
- Found mode      8 of     24:  EV= 4.4526205E+02, f=    3.358366, T=    0.297764
- Found mode      9 of     24:  EV= 6.5462036E+02, f=    4.072067, T=    0.245576
- Found mode     10 of     24:  EV= 7.5624339E+02, f=    4.376742, T=    0.228480
- Found mode     11 of     24:  EV= 8.6719579E+02, f=    4.686825, T=    0.213364
- Found mode     12 of     24:  EV= 1.0716216E+03, f=    5.210038, T=    0.191937
- Found mode     13 of     24:  EV= 1.3799491E+03, f=    5.912235, T=    0.169141
- Found mode     14 of     24:  EV= 1.7563470E+03, f=    6.669992, T=    0.149925
- Found mode     15 of     24:  EV= 1.8116545E+03, f=    6.774197, T=    0.147619
- Found mode     16 of     24:  EV= 2.2933704E+03, f=    7.621794, T=    0.131203
- Found mode     17 of     24:  EV= 2.7138751E+03, f=    8.291156, T=    0.120610
- Found mode     18 of     24:  EV= 2.8522481E+03, f=    8.499899, T=    0.117648
- Found mode     19 of     24:  EV= 3.3049310E+03, f=    9.149584, T=    0.109295
- Found mode     20 of     24:  EV= 3.6980039E+03, f=    9.678406, T=    0.103323
- Found mode     21 of     24:  EV= 3.9940503E+03, f=   10.058354, T=    0.099420
- Found mode     22 of     24:  EV= 4.6337421E+03, f=   10.833931, T=    0.092303
- Found mode     23 of     24:  EV= 5.3184415E+03, f=   11.606795, T=    0.086156
- Found mode     24 of     24:  EV= 5.9767808E+03, f=   12.304212, T=    0.081273
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       1   2.4435428E+01 2.5191605E+01 5.1310612E+01 1.6853691E+02 1.9027235E+02
+       2   2.4327149E+01 2.4714851E+01 4.9568631E+01 1.4717046E+02 1.6147109E+02
+       3   2.4327149E+01 2.4714850E+01 4.9568489E+01 1.4716292E+02 1.6146581E+02
+       4   2.4327149E+01 2.4714850E+01 4.9568489E+01 1.4716292E+02 1.6146581E+02
+
+ Found mode      1 of     24:  EV= 2.4327149E+01, f=    0.784993, T=    1.273897
+ Found mode      2 of     24:  EV= 2.4714850E+01, f=    0.791223, T=    1.263866
+ Found mode      3 of     24:  EV= 4.9568489E+01, f=    1.120529, T=    0.892436
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       5   1.4716292E+02 1.6146581E+02 2.6813882E+02 3.7704879E+02 4.1362764E+02
+
+ Found mode      4 of     24:  EV= 1.4716292E+02, f=    1.930720, T=    0.517941
+ Found mode      5 of     24:  EV= 1.6146581E+02, f=    2.022369, T=    0.494470
+ Found mode      6 of     24:  EV= 2.6813882E+02, f=    2.606153, T=    0.383707
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       6   3.7704879E+02 4.1362764E+02 6.0168710E+02 6.9995360E+02 8.0554739E+02
+
+ Found mode      7 of     24:  EV= 3.7704879E+02, f=    3.090430, T=    0.323580
+ Found mode      8 of     24:  EV= 4.1362764E+02, f=    3.236867, T=    0.308941
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       7   6.0168710E+02 6.9995360E+02 8.0554739E+02 9.9178804E+02 1.2661422E+03
+
+ Found mode      9 of     24:  EV= 6.0168710E+02, f=    3.903961, T=    0.256150
+ Found mode     10 of     24:  EV= 6.9995360E+02, f=    4.210704, T=    0.237490
+ Found mode     11 of     24:  EV= 8.0554739E+02, f=    4.517162, T=    0.221378
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       8   9.9178804E+02 1.2661422E+03 1.6302223E+03 1.6776804E+03 2.1212596E+03
+
+ Found mode     12 of     24:  EV= 9.9178804E+02, f=    5.012214, T=    0.199513
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       9   1.2661422E+03 1.6302223E+03 1.6776803E+03 2.1212593E+03 2.5278386E+03
+
+ Found mode     13 of     24:  EV= 1.2661422E+03, f=    5.663193, T=    0.176579
+ Found mode     14 of     24:  EV= 1.6302223E+03, f=    6.426042, T=    0.155617
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      10   1.6776803E+03 2.1212593E+03 2.5278386E+03 2.6494438E+03 3.0401243E+03
+
+ Found mode     15 of     24:  EV= 1.6776803E+03, f=    6.518906, T=    0.153400
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      11   2.1212593E+03 2.5278386E+03 2.6494438E+03 3.0401237E+03 3.4509147E+03
+
+ Found mode     16 of     24:  EV= 2.1212593E+03, f=    7.330220, T=    0.136422
+ Found mode     17 of     24:  EV= 2.5278386E+03, f=    8.001931, T=    0.124970
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      12   2.6494438E+03 3.0401237E+03 3.4509146E+03 3.7139780E+03 4.2897658E+03
+
+ Found mode     18 of     24:  EV= 2.6494438E+03, f=    8.192142, T=    0.122068
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      13   3.0401237E+03 3.4509146E+03 3.7139778E+03 4.2897602E+03 4.9786539E+03
+
+ Found mode     19 of     24:  EV= 3.0401237E+03, f=    8.775376, T=    0.113955
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      14   3.4509146E+03 3.7139778E+03 4.2897597E+03 4.9786319E+03 5.5896394E+03
+
+ Found mode     20 of     24:  EV= 3.4509146E+03, f=    9.349475, T=    0.106958
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      15   3.7139778E+03 4.2897596E+03 4.9786296E+03 5.5896254E+03 5.8381050E+03
+
+ Found mode     21 of     24:  EV= 3.7139778E+03, f=    9.699286, T=    0.103100
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      16   4.2897596E+03 4.9786294E+03 5.5896243E+03 5.8380951E+03 6.1056458E+03
+
+ Found mode     22 of     24:  EV= 4.2897596E+03, f=   10.424053, T=    0.095932
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      17   4.9786294E+03 5.5896242E+03 5.8380944E+03 6.1056452E+03 6.6738698E+03
+
+ Found mode     23 of     24:  EV= 4.9786294E+03, f=   11.229878, T=    0.089048
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+      18   5.5896242E+03 5.8380943E+03 6.1056451E+03 6.6738692E+03 7.3502521E+03
+
+ Found mode     24 of     24:  EV= 5.5896242E+03, f=   11.899027, T=    0.084040
 
  NUMBER OF EIGEN MODES FOUND               =          24
  NUMBER OF ITERATIONS PERFORMED            =          18
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    19:46:15
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    18:11:18
 
  CASE: SISMO XX
 
@@ -131,7 +195,7 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    19:46:15
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    18:11:18
 
  CASE: SISMO YY
 
@@ -141,4 +205,95 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- A N A L Y S I S   C O M P L E T E                          2020/09/10  19:46:15
+ A N A L Y S I S   C O M P L E T E                          2020/09/17  18:11:18
+
+
+ ETABS Ultimate 64-bit 18.0.2 Build 2064 (Analysis Build 9758/64)
+ File: D:\jcalv\Escritorio\Acero\Acero.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2020/09/17  18:11:26
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        6150
+    WITH RESTRAINTS                        =          28
+    WITH MASS                              =        6146
+ NUMBER OF FRAME/TENDON ELEMENTS           =        4863
+ NUMBER OF SHELL ELEMENTS                  =        5665
+ NUMBER OF LOAD PATTERNS                   =           7
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          10
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =      15.846 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           6
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           6
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           6
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           6
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           6
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           6
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
+
+
+ E L E M E N T   F O R M A T I O N                                      18:11:26
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        18:11:27
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =       36816
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =      935229
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  18:11:30
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           2
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           2
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: ~TORSIONSISMO XX
+ CASE: ~TORSIONSISMO YY
+
+
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    18:11:31
+
+ CASE: SISMO XX
+
+ TYPE OF EXCITATION                        = STANDARD GROUND ACCELERATION
+
+ USING MODES FROM CASE: MODAL
+ NUMBER OF DYNAMIC MODES TO BE USED        =          24
+
+
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    18:11:31
+
+ CASE: SISMO YY
+
+ TYPE OF EXCITATION                        = STANDARD GROUND ACCELERATION
+
+ USING MODES FROM CASE: MODAL
+ NUMBER OF DYNAMIC MODES TO BE USED        =          24
+
+
+ A N A L Y S I S   C O M P L E T E                          2020/09/17  18:11:31
