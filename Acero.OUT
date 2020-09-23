@@ -14,7 +14,7 @@
          ( ) = Null DOF
 
   JOINTS              UX  UY  UZ  RX  RY  RZ
-   ~6150 TO     309    A   A   A   A   A   A
+   ~5982 TO     309    A   A   A   A   A   A
      308               -   -   -   A   A   A
      113 TO      99    A   A   A   A   A   A
       98               -   -   -   A   A   A
@@ -22,7 +22,7 @@
      209               -   -   -   A   A   A
       22 TO       4    A   A   A   A   A   A
        3               -   -   -   A   A   A
-   ~3704 TO     298    A   A   A   A   A   A
+   ~3517 TO     298    A   A   A   A   A   A
      297               -   -   -   A   A   A
      197 TO      18    A   A   A   A   A   A
       17               -   -   -   A   A   A
@@ -38,7 +38,7 @@
      403               -   -   -   A   A   A
      199 TO      27    A   A   A   A   A   A
       26               -   -   -   A   A   A
-   ~3792 TO     594    A   A   A   A   A   A
+   ~3616 TO     594    A   A   A   A   A   A
      571 TO     570    -   -   -   A   A   A
      550 TO     208    A   A   A   A   A   A
      207               -   -   -   A   A   A
@@ -52,7 +52,7 @@
       87               -   -   -   A   A   A
       77 TO     416    A   A   A   A   A   A
      415               -   -   -   A   A   A
-   ~6026 TO     329    A   A   A   A   A   A
+   ~5858 TO     329    A   A   A   A   A   A
      328               -   -   -   A   A   A
      283               A   A   A   A   A   A
      178               -   -   -   A   A   A
