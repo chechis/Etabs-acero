@@ -1,4 +1,4 @@
-$ File D:\jcalv\Escritorio\Acero\Acero.$et saved 25/09/2020 18:11:20
+$ File D:\jcalv\Escritorio\Acero\Acero.$et saved 25/09/2020 19:25:15
  
 $ PROGRAM INFORMATION
   PROGRAM  "ETABS"  VERSION "18.0.2"  
@@ -2102,6 +2102,8 @@ $ LOAD PATTERNS
   LOADPATTERN "Live"  TYPE  "Live"  SELFWEIGHT  0
   LOADPATTERN "SD"  TYPE  "Live"  SELFWEIGHT  0
   LOADPATTERN "notional"  TYPE  "Notional"  SELFWEIGHT  0  NOTIONALLOAD "Dead"  NOTIONALFACTOR 0.002  NOTIONALDIR "X"  
+  LOADPATTERN "EclXX"  TYPE  "Seismic"  SELFWEIGHT  0
+  LOADPATTERN "EclYY"  TYPE  "Seismic"  SELFWEIGHT  0
 
 $ POINT OBJECT LOADS
 
@@ -2616,6 +2618,10 @@ $ LOAD CASES
   LOADCASE "Sismo YY"  ECCENRATIOTYPICAL  0.15 
   LOADCASE "notional"  TYPE  "Linear Static"  INITCOND  "PRESET"  
   LOADCASE "notional"  LOADPAT  "notional"  SF  1 
+  LOADCASE "EclXX"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "EclXX"  LOADPAT  "EclXX"  SF  1 
+  LOADCASE "EclYY"  TYPE  "Linear Static"  INITCOND  "PRESET"  
+  LOADCASE "EclYY"  LOADPAT  "EclYY"  SF  1 
 
 $ LOAD COMBINATIONS
   COMBO "gravitacional"  TYPE "Linear Add"  
@@ -3577,6 +3583,10 @@ ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 23/0
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 23/09/2020 13:19:46
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 23/09/2020 13:25:36
 ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 25/09/2020 18:11:20
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 25/09/2020 18:12:14
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 25/09/2020 18:12:30
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 25/09/2020 18:13:40
+ETABS Ultimate  18.0.2 File saved as D:\jcalv\Escritorio\Acero\Acero.EDB at 25/09/2020 19:25:14
   ENDCOMMENTS  
 
   END
