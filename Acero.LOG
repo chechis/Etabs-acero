@@ -6,7 +6,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2020/09/25  20:45:22
+ B E G I N   A N A L Y S I S                                2020/10/10  08:32:15
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -34,11 +34,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
 
 
- E L E M E N T   F O R M A T I O N                                      20:45:22
+ E L E M E N T   F O R M A T I O N                                      08:32:15
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        20:45:23
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        08:32:16
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -55,7 +55,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  20:45:23
+ L I N E A R   S T A T I C   C A S E S                                  08:32:16
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -73,7 +73,7 @@
  CASE: ~LLRF
 
 
- E I G E N   M O D A L   A N A L Y S I S                                20:45:24
+ E I G E N   M O D A L   A N A L Y S I S                                08:32:17
 
  CASE: MODAL
 
@@ -94,37 +94,37 @@
 
  Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
  Number of eigenvalues below shift =      0
- Found mode      1 of     24:  EV= 1.2564472E+01, f=    0.564147, T=    1.772588
- Found mode      2 of     24:  EV= 1.6577809E+01, f=    0.648013, T=    1.543179
- Found mode      3 of     24:  EV= 1.7593796E+01, f=    0.667575, T=    1.497960
- Found mode      4 of     24:  EV= 7.1562079E+01, f=    1.346361, T=    0.742743
- Found mode      5 of     24:  EV= 8.9596761E+01, f=    1.506490, T=    0.663795
- Found mode      6 of     24:  EV= 9.4019301E+01, f=    1.543223, T=    0.647995
- Found mode      7 of     24:  EV= 1.9260237E+02, f=    2.208772, T=    0.452740
- Found mode      8 of     24:  EV= 2.5761045E+02, f=    2.554476, T=    0.391470
- Found mode      9 of     24:  EV= 2.7947437E+02, f=    2.660671, T=    0.375845
- Found mode     10 of     24:  EV= 3.9482481E+02, f=    3.162440, T=    0.316211
- Found mode     11 of     24:  EV= 5.8340352E+02, f=    3.844188, T=    0.260133
- Found mode     12 of     24:  EV= 5.9852412E+02, f=    3.893686, T=    0.256826
- Found mode     13 of     24:  EV= 6.9176008E+02, f=    4.185987, T=    0.238892
- Found mode     14 of     24:  EV= 8.1886931E+02, f=    4.554361, T=    0.219570
- Found mode     15 of     24:  EV= 1.0097100E+03, f=    5.057297, T=    0.197734
- Found mode     16 of     24:  EV= 1.0514538E+03, f=    5.160779, T=    0.193769
- Found mode     17 of     24:  EV= 1.2060518E+03, f=    5.527174, T=    0.180924
- Found mode     18 of     24:  EV= 1.5854150E+03, f=    6.337115, T=    0.157801
- Found mode     19 of     24:  EV= 1.6451431E+03, f=    6.455382, T=    0.154909
- Found mode     20 of     24:  EV= 1.7126223E+03, f=    6.586443, T=    0.151827
- Found mode     21 of     24:  EV= 2.0848822E+03, f=    7.267096, T=    0.137607
- Found mode     22 of     24:  EV= 2.2052499E+03, f=    7.473930, T=    0.133798
- Found mode     23 of     24:  EV= 2.4965140E+03, f=    7.952197, T=    0.125751
- Found mode     24 of     24:  EV= 2.8435503E+03, f=    8.486929, T=    0.117828
+ Found mode      1 of     24:  EV= 9.9300495E+00, f=    0.501529, T=    1.993904
+ Found mode      2 of     24:  EV= 1.4811321E+01, f=    0.612515, T=    1.632612
+ Found mode      3 of     24:  EV= 1.6248276E+01, f=    0.641540, T=    1.558749
+ Found mode      4 of     24:  EV= 6.4343589E+01, f=    1.276653, T=    0.783298
+ Found mode      5 of     24:  EV= 8.1889862E+01, f=    1.440241, T=    0.694328
+ Found mode      6 of     24:  EV= 9.2823989E+01, f=    1.533382, T=    0.652153
+ Found mode      7 of     24:  EV= 1.7364166E+02, f=    2.097235, T=    0.476818
+ Found mode      8 of     24:  EV= 2.3248600E+02, f=    2.426714, T=    0.412080
+ Found mode      9 of     24:  EV= 2.7149414E+02, f=    2.622409, T=    0.381329
+ Found mode     10 of     24:  EV= 3.6695841E+02, f=    3.048797, T=    0.327998
+ Found mode     11 of     24:  EV= 5.3069770E+02, f=    3.666433, T=    0.272745
+ Found mode     12 of     24:  EV= 5.8936156E+02, f=    3.863768, T=    0.258815
+ Found mode     13 of     24:  EV= 6.1297629E+02, f=    3.940415, T=    0.253780
+ Found mode     14 of     24:  EV= 7.7300426E+02, f=    4.424978, T=    0.225990
+ Found mode     15 of     24:  EV= 9.3760087E+02, f=    4.873367, T=    0.205197
+ Found mode     16 of     24:  EV= 1.0271133E+03, f=    5.100694, T=    0.196052
+ Found mode     17 of     24:  EV= 1.1286928E+03, f=    5.346973, T=    0.187022
+ Found mode     18 of     24:  EV= 1.4439856E+03, f=    6.047858, T=    0.165348
+ Found mode     19 of     24:  EV= 1.5166972E+03, f=    6.198257, T=    0.161336
+ Found mode     20 of     24:  EV= 1.6619548E+03, f=    6.488282, T=    0.154124
+ Found mode     21 of     24:  EV= 1.9622006E+03, f=    7.050044, T=    0.141843
+ Found mode     22 of     24:  EV= 2.1274500E+03, f=    7.340909, T=    0.136223
+ Found mode     23 of     24:  EV= 2.4568127E+03, f=    7.888713, T=    0.126763
+ Found mode     24 of     24:  EV= 2.7507366E+03, f=    8.347273, T=    0.119800
 
  NUMBER OF EIGEN MODES FOUND               =          24
  NUMBER OF ITERATIONS PERFORMED            =          19
  NUMBER OF STIFFNESS SHIFTS                =           0
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    20:45:27
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    08:32:22
 
  CASE: SISMO XX
 
@@ -134,7 +134,7 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    20:45:27
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    08:32:22
 
  CASE: SISMO YY
 
@@ -144,7 +144,7 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- A N A L Y S I S   C O M P L E T E                          2020/09/25  20:45:28
+ A N A L Y S I S   C O M P L E T E                          2020/10/10  08:32:22
 
 
  ETABS Ultimate 64-bit 18.0.2 Build 2064 (Analysis Build 9758/64)
@@ -153,7 +153,7 @@
 
 
 
- B E G I N   A N A L Y S I S                                2020/09/25  20:45:30
+ B E G I N   A N A L Y S I S                                2020/10/10  08:32:25
 
 
  RUNNING ANALYSIS AS A SEPARATE PROCESS
@@ -181,11 +181,11 @@
  NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
 
 
- E L E M E N T   F O R M A T I O N                                      20:45:30
+ E L E M E N T   F O R M A T I O N                                      08:32:25
 
 
 
- L I N E A R   E Q U A T I O N   S O L U T I O N                        20:45:30
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        08:32:25
 
  FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -202,7 +202,7 @@
  ---------------------------------
 
 
- L I N E A R   S T A T I C   C A S E S                                  20:45:31
+ L I N E A R   S T A T I C   C A S E S                                  08:32:26
 
  USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
 
@@ -215,7 +215,7 @@
  CASE: ~TORSIONSISMO YY
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    20:45:31
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    08:32:26
 
  CASE: SISMO XX
 
@@ -225,7 +225,7 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- R E S P O N S E - S P E C T R U M   A N A L Y S I S                    20:45:31
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    08:32:26
 
  CASE: SISMO YY
 
@@ -235,4 +235,4 @@
  NUMBER OF DYNAMIC MODES TO BE USED        =          24
 
 
- A N A L Y S I S   C O M P L E T E                          2020/09/25  20:45:31
+ A N A L Y S I S   C O M P L E T E                          2020/10/10  08:32:26
